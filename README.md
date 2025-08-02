@@ -73,19 +73,23 @@ This bar chart shows the top 10 grossing movies.
 * The top-grossing movie is Avatar with (2,776,345,000 billion dollars) made at the box office.
 * The majority of the top-grossing movies are action movies,  so I would advise the head of a new movie studio to create action movies.
 ##  Visualization 2
-!<img width="1848" height="753" alt="Top 10 Lowest Grossing Films" src="https://github.com/user-attachments/assets/39a602ce-0ca9-40e9-a3b8-ffc8845b00a6" />
+!<img width="1848" height="753" alt="Top 10 Lowest Grossing Films" src="https://github.com/user-attachments/assets/3426c684-d7a9-46a1-8d0d-4b8229348c41" />
+
 
 The movies that performed badly at the box office are different genre films, suggesting that they were just bad movies.
 
 ## Interactive dashboard 1
-!<img width="1859" height="1199" alt="Movie Gross Dashboard" src="https://github.com/user-attachments/assets/cbe85263-9db7-41c3-9a90-b90d49b2497b" />
+!<img width="1859" height="1199" alt="Movie Gross Dashboard" src="https://github.com/user-attachments/assets/56868cce-50d3-4cdd-abe5-2e260f077843" />
+
 
 This dashboard shows all the information about the Top 10 grossing movies with the total domestic gross, foreign gross, and worldwide gross.
 
 
 In Tableau, I can show how interactive the information  is by filtering and showing what a specific movie made at the box office. 
 ## Interactive dashboard 2
-!<img width="1859" height="1649" alt="Profit and loss Dashboard" src="https://github.com/user-attachments/assets/c928496b-600f-4d15-825e-868c2f3587f1" />
+!<img width="1859" height="1649" alt="Profit and loss Dashboard" src="https://github.com/user-attachments/assets/43bad74c-d159-4802-8e3a-f4a051d9886f" />
+
+
 
 This dashboard contains the product budget and the profit and losses made after releasing the movie.
 ## Observation
