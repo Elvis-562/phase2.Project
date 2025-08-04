@@ -39,6 +39,10 @@ Pandas, Tableau, Matplotlib, and Seaborn.
 My PDF is not rendering. Kindly use this link
 pdflink:https://www.canva.com/design/DAGu5mTXGxg/xUsYWpgWwujjtuNervC42g/edit?utm_content=DAGu5mTXGxg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
+On the top right corner of the link, there is a share icon. Please kindly pick the present option for a better view.
+
+I will also share the  PDF on Canvas.
+
 
 
 
