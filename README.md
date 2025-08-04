@@ -34,6 +34,10 @@ Pandas, Tableau, Matplotlib, and Seaborn.
 * Sheet5:https://public.tableau.com/views/phase2project_17539825839810/HighestLossMarginsforthefilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 * Dashboard1:https://public.tableau.com/views/phase2project_17539825839810/MovieGrossDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 * Dashboard2:https://public.tableau.com/views/phase2project_17539825839810/ProfitandlossDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+## Presentation PDF  link
+
+My PDF is not rendering. Kindly use this link
+pdflink:https://www.canva.com/design/DAGu5mTXGxg/xUsYWpgWwujjtuNervC42g/edit?utm_content=DAGu5mTXGxg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
 
