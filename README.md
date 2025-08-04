@@ -9,99 +9,35 @@ Project goals:
 1. Explore the different datasets showing the reviews, budgets, and gross.
 2. Find the type of films that perform well at the Box Office.
 3. Provide the head of the movie studio with information on which type of movies to create.
-
-Once these goals have been met, I will be able to identify the type of films that will generate a large revenue for the head of the movie studio as they partake in this new venture.
-## Data Understanding
-I am now going to explore the different datasets, which include(Bom movie gross csv, im.db, rt.movie.info, rt.reviews.tsv, tmdb.movies.csv, tn.movie_budgets.csv) to find the suitable datasets that would work with this project.
-
-I then loaded the libraries that I would use
-
-```python
-import pandas as pd
-import seaborn as sns
-import matplotlib.pylot as plt
-import warnings
-warnings.filterwarnings("ignore")
-```
-I then reviewed the 6 datasets and I decided to work with two datasets.
-
-The datasets include Box Office Mojo(BOM) and the numbers dataset.
-
-I picked the Box Office Mojo dataset since it contains domestic and foreign gross so it helps us know how much money was made locally and internationally.
-
-I picked the numbers dataset(df6) since it contains the production budget and the gross of the films so we can see how much profit the movies are making, hence identifying the type of films that won't incur loss and  are popular films among the audiences.
-## Data Preparation
-I cleaned the (BOM) dataset by filling  missing values in the column foreign gross with median and dropping rows with minimal missing values.
-
-The numbers dataset contained no missing values, but to create more similar columns with the (BOM) dataset, I renamed and split some of the columns.
-
-I renamed the column movie to title to match the title column in the (BOM) dataset.
-
-I split the column release date to get a column year in the numbers dataset to match the year column in the (BOM) dataset.
-
-This is to avoid dealing with a lot of missing values.
-
-I then dropped  the column release date and column month date that I made after splitting the release date.
-
-Finally, I merged the two datasets.
-
-```python
-# merging df2 and df6 which are different databases
-#merge with the same column names
-#concat=with different data types, and because I can't merge with numerical values
-# using ignore_index argument so we can create a new index
-#using sort  argument to keep the original order
-
-df7=pd.concat([df6,df2],ignore_index=True,sort=False)
-df7
-```
-
-After merging, I further cleaned the data, creating uniformity in the column values that are in domestic gross, foreign gross, worldwide gross and production budget columns.
-
-I filled in the missing values and dropped the columns containing a lot of missing values  and the ones I didn't need.
-
-The final step was to drop duplicates, as there were many in the column title.
-
-## Data Visualization
-
-I will display the visuals I used in Tableau.
-## Visualization 1
-!<img width="1848" height="753" alt="Top 10 Highest Grossing Films(1)" src="https://github.com/user-attachments/assets/c7c2d185-a595-47a5-889d-4bdb6ef0afbd" />
-
-This bar chart shows the top 10 grossing movies.
-## Observation
-* The top-grossing movie is Avatar with (2,776,345,000 billion dollars) made at the box office.
-* The majority of the top-grossing movies are action movies,  so I would advise the head of a new movie studio to create action movies.
-##  Visualization 2
-!<img width="1848" height="753" alt="Top 10 Lowest Grossing Films" src="https://github.com/user-attachments/assets/3426c684-d7a9-46a1-8d0d-4b8229348c41" />
-
-
-The movies that performed badly at the box office are different genre films, suggesting that they were just bad movies.
-
-## Interactive dashboard 1
-!<img width="1859" height="1199" alt="Movie Gross Dashboard" src="https://github.com/user-attachments/assets/56868cce-50d3-4cdd-abe5-2e260f077843" />
-
-
-This dashboard shows all the information about the Top 10 grossing movies with the total domestic gross, foreign gross, and worldwide gross.
-
-
-In Tableau, I can show how interactive the information  is by filtering and showing what a specific movie made at the box office. 
-## Interactive dashboard 2
-!<img width="1859" height="1649" alt="Profit and loss Dashboard" src="https://github.com/user-attachments/assets/43bad74c-d159-4802-8e3a-f4a051d9886f" />
-
-
-
-This dashboard contains the product budget and the profit and losses made after releasing the movie.
-## Observation
-* Some of the best-performing movies had a large budget.
-* Dark Phoenix made a huge loss despite being an action movie, indicating that sometimes studios can  get it wrong even if action movies are popular among the audience.
-## Recommendations
+## Data & Methodology
+* Data source: The datasets used for this project were Box Office Mojo and the numbers dataset, which contained movie titles, the domestic, foreign and worldwide grosses for the movies.
+* Data Cleaning: I used pandas to fill in  missing values using median and dropped  columns that I didn't need and further dropped rows containing missing values. This made the merged dataset easy to work with and interpret.
+* Methodology: I used exploratory data analysis to display my findings, getting the movies that generated the largest and smallest revenue. I was able to identify movies that incurred profits or losses. I also created visualizations using Tableau.
+## Conclusion
+* The movies with the largest revenue at the Box office are Action/Sci-fi movies, so the head of the new movie studio should create Action/Sci-fi films.
+* Creating movies sometimes requires a lot of capital, so the head of the new movie studio should ensure they have the funding as they partake in this new venture.
+* The head of the new movie studio should research  what the audience wants to see to avoid having a box office bomb like the Dark Phoenix movie, meaning they should have good writers and directors at their disposal.
+ ## Recommendations
 * Create Action/Sci-fi movies since they generate high revenue and have large profit margins.
 * Create Romance/Adventure movies to diversify their  source of income.
 * Create fantasy movies.
 * Create high-budget films since some of the highest-grossing films had a big budget, as you might have a chance of making even more money by ensuring the quality of the movie is good, as they say, high risk, high reward.
 * The head of the new movie studio should also be cost-effective since some of the movies with low budgets have gotten a return on their investment  at the Box office.
 * Create low to mid-budget films because they're a new studio in the film industry and see the reception.
+## Technologies Used
+Pandas, Tableau, Matplotlib, and Seaborn.
+## Tableau link
+* Sheet1:https://public.tableau.com/views/phase2project_17539825839810/Top10HighestGrossingFilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Sheet2:https://public.tableau.com/views/phase2project_17539825839810/Top10LowestGrossingFilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Sheet3:https://public.tableau.com/views/phase2project_17539825839810/GraphshowingProductionCostoftheFilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Sheet4:https://public.tableau.com/views/phase2project_17539825839810/ProfitMarginsfortheFilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Sheet5:https://public.tableau.com/views/phase2project_17539825839810/HighestLossMarginsforthefilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Dashboard1:https://public.tableau.com/views/phase2project_17539825839810/MovieGrossDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Dashboard2:https://public.tableau.com/views/phase2project_17539825839810/ProfitandlossDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+
+
+
 
 
 
