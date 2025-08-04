@@ -27,7 +27,15 @@ Project goals:
 ## Technologies Used
 Pandas, Tableau, Matplotlib, and Seaborn.
 ## Tableau link
-https://public.tableau.com/views/phase2project_17539825839810/Top10HighestGrossingFilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Sheet1:https://public.tableau.com/views/phase2project_17539825839810/Top10HighestGrossingFilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Sheet2:https://public.tableau.com/views/phase2project_17539825839810/Top10LowestGrossingFilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Sheet3:https://public.tableau.com/views/phase2project_17539825839810/GraphshowingProductionCostoftheFilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Sheet4:https://public.tableau.com/views/phase2project_17539825839810/ProfitMarginsfortheFilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Sheet5:https://public.tableau.com/views/phase2project_17539825839810/HighestLossMarginsforthefilms?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Dashboard1:https://public.tableau.com/views/phase2project_17539825839810/MovieGrossDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+* Dashboard2:https://public.tableau.com/views/phase2project_17539825839810/ProfitandlossDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+
 
 
 
