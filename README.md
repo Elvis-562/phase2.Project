@@ -10,9 +10,9 @@ Project goals:
 2. Find the type of films that perform well at the Box Office.
 3. Provide the head of the movie studio with information on which type of movies to create.
 
-Once these goals have been met, I will be able to identify the type of films that offer a large revenue to the head of the movie studio as they partake in this new venture.
+Once these goals have been met, I will be able to identify the type of films that will generate a large revenue for the head of the movie studio as they partake in this new venture.
 ## Data Understanding
-Here I am going to explore the different datasets, which include(Bom movie gross csv, im.db, rt.movie.info, rt.reviews.tsv, tmdb.movies.csv, tn.movie_budgets.csv) to find the suitable datasets that would work with this project.
+I am now going to explore the different datasets, which include(Bom movie gross csv, im.db, rt.movie.info, rt.reviews.tsv, tmdb.movies.csv, tn.movie_budgets.csv) to find the suitable datasets that would work with this project.
 
 I then loaded the libraries that I would use
 
@@ -94,7 +94,14 @@ In Tableau, I can show how interactive the information  is by filtering and show
 This dashboard contains the product budget and the profit and losses made after releasing the movie.
 ## Observation
 * Some of the best-performing movies had a large budget.
-* Dark Phoenix made a huge loss despite being an action movie, indicating that sometimes you can get it wrong even if action movies are popular among the audience.
+* Dark Phoenix made a huge loss despite being an action movie, indicating that sometimes studios can  get it wrong even if action movies are popular among the audience.
+## Recommendations
+* Create Action/Sci-fi movies since they generate high revenue and have large profit margins.
+* Create Romance/Adventure movies to diversify their  source of income.
+* Create fantasy movies.
+* Create high-budget films since some of the highest-grossing films had a big budget, as you might have a chance of making even more money by ensuring the quality of the movie is good, as they say, high risk, high reward.
+* The head of the new movie studio should also be cost-effective since some of the movies with low budgets have gotten a return on their investment  at the Box office.
+* Create low to mid-budget films because they're a new studio in the film industry and see the reception.
 
 
 
